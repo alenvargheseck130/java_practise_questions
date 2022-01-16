@@ -1,21 +1,16 @@
 /*
-b. Write a program that displays the following to standard output with a 1/2 a second delay
-between each line.
-   J    A   V     V   A
-   J   A A   V   V   A A
-J  J  AAAAA   V V   AAAAA
- JJ  A     A   V   A     A
+c. A string can contain \n to print a carriage return and \t to print a tab. Write a program that
+uses a single statement to output the following table.
+x x^2   x^3
+1 1 1
+2 4 8
+3 9 27
+4 16 64
  */
 
 
 public class practice {
     public static void main(String[] args) throws InterruptedException {
-        System.out.println("   J    A   V     V   A");
-        Thread.sleep(500);
-        System.out.println("   J   A A   V   V   A  A");
-        Thread.sleep(500);
-        System.out.println("J  J  AAAAAA  V V   AAAAAA");
-        Thread.sleep(500);
-        System.out.println(" JJ  A      A  V   A      A");
+        System.out.println("x\tx^2\tx^3\n1\t1\t1\n2\t4\t8\n3\t9\t27\n4\t16\t64");
     }
 }
